@@ -1,0 +1,56 @@
+{
+  "id": "lotr-rp-5e-compendium",
+  "title": "LOTR RP 5e - Unofficial Compendium",
+  "description": "LOTR RP 5e - Unofficial Compendium",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "StellarValkyrie",
+      "url": "github.com/StellarValkyrie",
+      "discord": "stellardreams"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12.331",
+    "maximum": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "verified": "4.2.2"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "actors-lotr-rp",
+      "label": "Actors",
+      "path": "packs/actors-lotr-rp",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "items-lotr-rp",
+      "label": "Items",
+      "path": "packs/actors-lotr-rp",
+      "type": "Item",
+      "system": "dnd5e",
+      "banner": "",
+      "private": false,
+      "flags": {}
+    },
+
+  ],
+  "url": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium",
+  "manifest": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/-/raw/main/module.json",
+  "download": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/-/archive/0.1.0/LOTR-RP-5e-Compendium-0.1.0.zip"
+}
