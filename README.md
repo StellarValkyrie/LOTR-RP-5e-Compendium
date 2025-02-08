@@ -2,7 +2,9 @@
 LOTR RP 5e Compendium Module for Foundry VTT. 
 
 Requires Dungeons & Dragons Fifth Edition system for Foundry VTT.
+
 https://foundryvtt.com/packages/dnd5e
+
 https://github.com/foundryvtt/dnd5e
 
 ## License
