@@ -34,7 +34,6 @@
       "path": "packs/actors-lotr-rp",
       "type": "Actor",
       "system": "dnd5e",
-      "banner": "",
       "private": false,
       "flags": {}
     },
@@ -44,7 +43,6 @@
       "path": "packs/items-lotr-rp",
       "type": "Item",
       "system": "dnd5e",
-      "banner": "",
       "private": false,
       "flags": {}
     },
