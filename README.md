@@ -1,4 +1,4 @@
-# LOTR-RP-5e-Compendium
+# LOTR-RP-5e-Unofficial-Compendium
 Unofficial LOTR RP 5e Compendium Module for Foundry VTT. 
 
 ## Prerequisites
