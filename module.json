@@ -1,56 +1,60 @@
 {
-  "id": "lotr-rp-5e-compendium",
-  "title": "LOTR RP 5e - Unofficial Compendium",
-  "description": "LOTR RP 5e - Unofficial Compendium",
-  "version": "0.1.0",
-  "authors": [
-    {
-      "name": "StellarValkyrie",
-      "url": "github.com/StellarValkyrie",
-      "discord": "stellardreams"
-    }
-  ],
+  "id": "lotr-rp-5e-unofficial-compendium",
+  "title": "LOTR RP 5e Unofficial Compendium",
+  "version": "1.0.0",
   "compatibility": {
-    "minimum": "11",
-    "verified": "12.331",
-    "maximum": "12"
+    "minimum": "12",
+    "verified": "12"
   },
   "relationships": {
+    "requires": [
+      {
+        "id": "lotr5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
     "systems": [
       {
         "id": "dnd5e",
         "type": "system",
-        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
-        "compatibility": {
-          "verified": "4.2.2"
-        }
+        "compatibility": {}
       }
     ]
   },
-  "packs": [
+  "description": "Unofficial LOTR RP 5e Compendium Module for Foundry VTT.",
+  "authors": [
     {
-      "name": "actors-lotr-rp",
-      "label": "Actors",
-      "path": "packs/actors-lotr-rp",
-      "type": "Item",
-      "system": "dnd5e",
-      "banner": "",
-      "private": false,
+      "name": "StellarDreams",
+      "email": "stellardreaming@pm.me",
+      "url": "https://github.com/StellarValkyrie",
+      "discord": "stellardreams",
       "flags": {}
-    },
-    {
-      "name": "items-lotr-rp",
-      "label": "Items",
-      "path": "packs/actors-lotr-rp",
-      "type": "Item",
-      "system": "dnd5e",
-      "banner": "",
-      "private": false,
-      "flags": {}
-    },
-
+    }
   ],
   "url": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium",
-  "manifest": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/-/raw/main/module.json",
-  "download": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/-/archive/0.1.0/LOTR-RP-5e-Compendium-0.1.0.zip"
+  "packs": [
+    {
+      "name": "lotr-5e-actors",
+      "label": "LOTR 5e Actors",
+      "path": "packs/lotr-5e-actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "lotr-5e-items",
+      "label": "LOTR 5e Items",
+      "path": "packs/lotr-5e-items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ]
 }
