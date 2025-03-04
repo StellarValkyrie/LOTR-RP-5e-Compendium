@@ -2,7 +2,7 @@
   "id": "lotr-rp-5e-compendium",
   "title": "LOTR RP 5e Unofficial Compendium",
   "description": "LOTR RP 5e Unofficial Compendium",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "authors": [
     {
       "name": "StellarValkyrie",
@@ -52,5 +52,5 @@
   ],
   "url": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium",
   "manifest": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/blob/main/module.json",
-  "download": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/-/archive/1.0.0/LOTR-RP-5e-Compendium-primary.zip"
+  "download": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/-/archive/v0.1.0/LOTR-RP-5e-Compendium-primary.zip"
 }
