@@ -1,0 +1,31 @@
+2025/03/03-15:20:56.876958 ea042fe0f100 Recovering log #100
+2025/03/03-15:20:56.898671 ea042fe0f100 Level-0 table #104: started
+2025/03/03-15:20:56.916923 ea042fe0f100 Level-0 table #104: 1553941 bytes OK
+2025/03/03-15:20:56.921706 ea042fe0f100 Delete type=0 #100
+2025/03/03-15:20:56.921831 ea042fe0f100 Delete type=3 #93
+2025/03/03-15:20:57.511069 ea042ea0f100 Compacting 1@0 + 1@1 files
+2025/03/03-15:20:57.549472 ea042ea0f100 Generated table #106@0: 1345 keys, 1634172 bytes
+2025/03/03-15:20:57.549493 ea042ea0f100 Compacted 1@0 + 1@1 files => 1634172 bytes
+2025/03/03-15:20:57.550733 ea042ea0f100 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/03/03-15:20:57.550923 ea042ea0f100 Delete type=2 #102
+2025/03/03-15:20:57.551166 ea042ea0f100 Delete type=2 #104
+2025/03/03-18:55:52.015142 ea042ea0f100 Level-0 table #108: started
+2025/03/03-18:55:52.035471 ea042ea0f100 Level-0 table #108: 1577875 bytes OK
+2025/03/03-18:55:52.037566 ea042ea0f100 Delete type=0 #105
+2025/03/03-19:30:26.238825 ea042ea0f100 Compacting 1@0 + 1@1 files
+2025/03/03-19:30:26.266963 ea042ea0f100 Generated table #109@0: 1395 keys, 1698757 bytes
+2025/03/03-19:30:26.266986 ea042ea0f100 Compacted 1@0 + 1@1 files => 1698757 bytes
+2025/03/03-19:30:26.268575 ea042ea0f100 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/03/03-19:30:26.268822 ea042ea0f100 Delete type=2 #106
+2025/03/03-19:30:26.269447 ea042ea0f100 Delete type=2 #108
+2025/03/04-03:57:25.132961 ea042ea0f100 Level-0 table #111: started
+2025/03/04-03:57:25.148078 ea042ea0f100 Level-0 table #111: 1282487 bytes OK
+2025/03/04-03:57:25.149729 ea042ea0f100 Delete type=0 #107
+2025/03/04-03:57:25.170583 ea042ea0f100 Manual compaction at level-0 from '!actors!04x8Ma99O1tP9Nke' @ 72057594037927935 : 1 .. '!folders!zHt5CEfrfyHFgUxw' @ 0 : 0; will stop at '!folders!gV92Puz3fMx2Or7v' @ 13946 : 1
+2025/03/04-03:57:25.170595 ea042ea0f100 Compacting 1@0 + 1@1 files
+2025/03/04-03:57:25.200202 ea042ea0f100 Generated table #112@0: 1460 keys, 1769761 bytes
+2025/03/04-03:57:25.200224 ea042ea0f100 Compacted 1@0 + 1@1 files => 1769761 bytes
+2025/03/04-03:57:25.201327 ea042ea0f100 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/03/04-03:57:25.201563 ea042ea0f100 Delete type=2 #109
+2025/03/04-03:57:25.201885 ea042ea0f100 Delete type=2 #111
+2025/03/04-03:57:25.202111 ea042ea0f100 Manual compaction at level-0 from '!folders!gV92Puz3fMx2Or7v' @ 13946 : 1 .. '!folders!zHt5CEfrfyHFgUxw' @ 0 : 0; will stop at (end)
