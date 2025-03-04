@@ -1,5 +1,5 @@
 # LOTR-RP-5e-Compendium
-LOTR RP 5e Compendium Module for Foundry VTT. 
+Unofficial LOTR RP 5e Compendium Module for Foundry VTT. 
 
 ## Prerequisites
 Dungeons & Dragons Fifth Edition system for Foundry VTT.
