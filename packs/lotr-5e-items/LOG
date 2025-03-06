@@ -1,10 +1,15 @@
-2025/03/04-04:50:22.388227 ea042f40f100 Recovering log #71
-2025/03/04-04:50:22.391510 ea042f40f100 Delete type=3 #2
-2025/03/04-04:50:22.391546 ea042f40f100 Delete type=0 #4
-2025/03/04-04:50:22.391561 ea042f40f100 Delete type=0 #71
-2025/03/04-04:50:22.391600 ea042f40f100 Delete type=3 #66
-2025/03/04-04:55:30.225539 ea042ea0f100 Level-0 table #77: started
-2025/03/04-04:55:30.225562 ea042ea0f100 Level-0 table #77: 0 bytes OK
-2025/03/04-04:55:30.227427 ea042ea0f100 Delete type=0 #75
-2025/03/04-04:55:30.231218 ea042ea0f100 Manual compaction at level-0 from '!folders!00Dikzbk0PzHK4DC' @ 72057594037927935 : 1 .. '!items.effects!zTyrqDxx4WHQKSxc.2VGd1Fqjc6kWlerd' @ 0 : 0; will stop at (end)
-2025/03/04-04:55:30.235286 ea042ea0f100 Manual compaction at level-1 from '!folders!00Dikzbk0PzHK4DC' @ 72057594037927935 : 1 .. '!items.effects!zTyrqDxx4WHQKSxc.2VGd1Fqjc6kWlerd' @ 0 : 0; will stop at (end)
+2025/03/06-15:27:45.320742 ebffce00f100 Recovering log #80
+2025/03/06-15:27:45.324439 ebffce00f100 Delete type=3 #78
+2025/03/06-15:27:45.324487 ebffce00f100 Delete type=0 #80
+2025/03/06-20:51:54.011352 ebffc7e0f100 Level-0 table #85: started
+2025/03/06-20:51:54.022111 ebffc7e0f100 Level-0 table #85: 572514 bytes OK
+2025/03/06-20:51:54.024033 ebffc7e0f100 Delete type=0 #83
+2025/03/06-20:51:54.031225 ebffc7e0f100 Manual compaction at level-0 from '!folders!00Dikzbk0PzHK4DC' @ 72057594037927935 : 1 .. '!items.effects!zTyrqDxx4WHQKSxc.2VGd1Fqjc6kWlerd' @ 0 : 0; will stop at (end)
+2025/03/06-20:51:54.031296 ebffc7e0f100 Manual compaction at level-1 from '!folders!00Dikzbk0PzHK4DC' @ 72057594037927935 : 1 .. '!items.effects!zTyrqDxx4WHQKSxc.2VGd1Fqjc6kWlerd' @ 0 : 0; will stop at '!items!zwdh0V5e1eGBojth' @ 4940 : 1
+2025/03/06-20:51:54.031301 ebffc7e0f100 Compacting 1@1 + 1@2 files
+2025/03/06-20:51:54.042252 ebffc7e0f100 Generated table #86@1: 609 keys, 508819 bytes
+2025/03/06-20:51:54.042279 ebffc7e0f100 Compacted 1@1 + 1@2 files => 508819 bytes
+2025/03/06-20:51:54.044204 ebffc7e0f100 compacted to: files[ 0 0 1 0 0 0 0 ]
+2025/03/06-20:51:54.044342 ebffc7e0f100 Delete type=2 #73
+2025/03/06-20:51:54.044643 ebffc7e0f100 Delete type=2 #85
+2025/03/06-20:51:54.051010 ebffc7e0f100 Manual compaction at level-1 from '!items!zwdh0V5e1eGBojth' @ 4940 : 1 .. '!items.effects!zTyrqDxx4WHQKSxc.2VGd1Fqjc6kWlerd' @ 0 : 0; will stop at (end)
