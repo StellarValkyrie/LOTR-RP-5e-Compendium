@@ -1,0 +1,7 @@
+2025/03/21-15:36:58.338281 fd744960f100 Recovering log #7
+2025/03/21-15:36:58.343396 fd744960f100 Delete type=3 #4
+2025/03/21-15:36:58.343425 fd744960f100 Delete type=0 #7
+2025/03/21-15:39:46.244597 fd7448c0f100 Level-0 table #13: started
+2025/03/21-15:39:46.244622 fd7448c0f100 Level-0 table #13: 0 bytes OK
+2025/03/21-15:39:46.246687 fd7448c0f100 Delete type=0 #11
+2025/03/21-15:39:46.251460 fd7448c0f100 Manual compaction at level-0 from '!actors!04x8Ma99O1tP9Nke' @ 72057594037927935 : 1 .. '!folders!zHt5CEfrfyHFgUxw' @ 0 : 0; will stop at (end)

@@ -1,9 +1,9 @@
 {
   "id": "lotr-rp-5e-unofficial-compendium",
   "title": "LOTR RP 5e Unofficial Compendium",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "manifest": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/releases/latest/download/module.json",
-  "download": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/releases/download/1.0.1/module.zip",
+  "download": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/releases/download/1.2.0/module.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -24,7 +24,7 @@
       }
     ]
   },
-  "description": "Unofficial LOTR RP 5e Compendium Module for Foundry VTT.\n\nPrerequisites\nDungeons &amp; Dragons Fifth Edition system for Foundry VTT.\n\nhttps://foundryvtt.com/packages/dnd5e\n\nhttps://github.com/foundryvtt/dnd5e\n\nLord of the Rings Roleplaying module for Foundry VTT\n\nhttps://foundryvtt.com/packages/lotr5e\n\nhttps://github.com/ZWinther/lotr5e-module\n\nLicense\nThe One Ring, The Lord of the Rings and the characters, items, events and places therein are trademarks or registered trademarks of Middle-earth Enterprises, LLC and are used under license by Sophisticated Games Ltd. and Fria Ligan AB.",
+  "description": "Unofficial LOTR RP 5e Compendium Module for Foundry VTT.\n\nPrerequisites\nDungeons &amp; Dragons Fifth Edition system for Foundry VTT.\n\nhttps://foundryvtt.com/packages/dnd5e\n\nhttps://github.com/foundryvtt/dnd5e\n\nLord of the Rings Roleplaying module for Foundry VTT\n\nhttps://foundryvtt.com/packages/lotr5e\n\nhttps://github.com/ZWinther/lotr5e-module\n\nLicense\nThis module is a fan project, and its author is in no way affiliated with or endorsed by Free League Publishing or Middle-earth Enterprises.",
   "authors": [
     {
       "name": "StellarDreams",
@@ -37,9 +37,75 @@
   "url": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium",
   "packs": [
     {
-      "name": "lotr-5e-actors",
-      "label": "LOTR 5e Actors",
-      "path": "packs/lotr-5e-actors",
+      "name": "1-heroic-cultures",
+      "label": "1. Heroic Cultures",
+      "path": "packs/1-heroic-cultures",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "2-cultural-features",
+      "label": "2. Cultural Features",
+      "path": "packs/2-cultural-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "3-backgrounds",
+      "label": "3. Backgrounds",
+      "path": "packs/3-backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "4-virtues-and-crafts",
+      "label": "4. Virtues and Crafts",
+      "path": "packs/4-virtues-and-crafts",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "5-callings",
+      "label": "5. Callings",
+      "path": "packs/5-callings",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "6-calling-features",
+      "label": "6. Calling Features",
+      "path": "packs/6-calling-features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "7-monsters",
+      "label": "7. Monsters",
+      "path": "packs/7-monsters",
       "type": "Actor",
       "system": "dnd5e",
       "ownership": {
@@ -48,15 +114,68 @@
       }
     },
     {
-      "name": "lotr-5e-items",
-      "label": "LOTR 5e Items",
-      "path": "packs/lotr-5e-items",
+      "name": "8-monster-features",
+      "label": "8. Monster Features",
+      "path": "packs/8-monster-features",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "9-equipment",
+      "label": "9. Equipment",
+      "path": "packs/9-equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "LOTR RP 5e Content",
+      "sorting": "m",
+      "color": "#af8e26",
+      "packs": ["9-equipment"],
+      "folders": [
+        {
+          "name": "Heroic Cultures",
+          "sorting": "m",
+          "color": "#00471d",
+          "packs": [
+            "1-heroic-cultures",
+            "2-cultural-features",
+            "3-backgrounds",
+            "4-virtues-and-crafts"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Callings",
+          "sorting": "m",
+          "color": "#6082B6",
+          "packs": [
+            "5-callings",
+            "6-calling-features"
+          ],
+          "folders": []
+        },
+        {
+          "name": "Monsters",
+          "sorting": "m",
+          "color": "#7d160c",
+          "packs": [
+            "7-monsters",
+            "8-monster-features"
+          ],
+          "folders": []
+        }
+      ]
     }
   ]
 }
