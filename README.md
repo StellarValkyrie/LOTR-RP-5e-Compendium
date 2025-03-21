@@ -26,5 +26,4 @@ If you want to help support my work on The Lord of the Rings RP and other TTRPG 
 
 
 ## License
-The One Ring, The Lord of the Rings and the characters, items, events and places therein are trademarks or registered trademarks
-of Middle-earth Enterprises, LLC and are used under license by Sophisticated Games Ltd. and Fria Ligan AB.
+This module is a fan project, and its author is in no way affiliated with or endorsed by Free League Publishing or Middle-earth Enterprises.
