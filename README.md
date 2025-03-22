@@ -3,7 +3,7 @@ Unofficial LOTR RP 5e Compendium Module for Foundry VTT.
 
 Contains book and page references to Actors, Cultures, Callings, Equipment, Virtues, and other features for The Lord of the Rings Roleplaying for Dungeons & Dragons 5th Edition.
 
-Descriptions are not included and must be references from the source materials except for D&D 5e content released under the Systems Reference Document (SRD).
+Descriptions are not included and must be referenced from the source materials except for D&D 5e content released under the Systems Reference Document (SRD).
 
 All art used is from the Dungeons & Dragons Fifth Edition system for Foundry VTT or free-to-use Foundry VTT assets.
 
