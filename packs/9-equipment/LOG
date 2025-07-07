@@ -1,15 +1,11 @@
-2025/07/07-13:17:48.618262 e74ee280f060 Recovering log #3
-2025/07/07-13:17:48.621827 e74ee280f060 Level-0 table #5: started
-2025/07/07-13:17:48.627483 e74ee280f060 Level-0 table #5: 212285 bytes OK
-2025/07/07-13:17:48.632970 e74ee280f060 Delete type=0 #3
-2025/07/07-13:17:48.633016 e74ee280f060 Delete type=3 #2
-2025/07/07-14:29:05.332406 e74ee0c0f060 Level-0 table #8: started
-2025/07/07-14:29:05.332435 e74ee0c0f060 Level-0 table #8: 0 bytes OK
-2025/07/07-14:29:05.334455 e74ee0c0f060 Delete type=0 #6
-2025/07/07-14:29:05.348817 e74ee0c0f060 Manual compaction at level-0 from '!folders!Bk0io7aWCm0l6OTk' @ 72057594037927935 : 1 .. '!items.effects!yuCzzgQoTyPQ7rQL.5KfQQtHLKLYS22Gh' @ 0 : 0; will stop at '!items.effects!yuCzzgQoTyPQ7rQL.5KfQQtHLKLYS22Gh' @ 249 : 1
-2025/07/07-14:29:05.348828 e74ee0c0f060 Compacting 1@0 + 0@1 files
-2025/07/07-14:29:05.355039 e74ee0c0f060 Generated table #9@0: 249 keys, 212285 bytes
-2025/07/07-14:29:05.355058 e74ee0c0f060 Compacted 1@0 + 0@1 files => 212285 bytes
-2025/07/07-14:29:05.357116 e74ee0c0f060 compacted to: files[ 0 1 0 0 0 0 0 ]
-2025/07/07-14:29:05.357220 e74ee0c0f060 Delete type=2 #5
-2025/07/07-14:29:05.362343 e74ee0c0f060 Manual compaction at level-0 from '!items.effects!yuCzzgQoTyPQ7rQL.5KfQQtHLKLYS22Gh' @ 249 : 1 .. '!items.effects!yuCzzgQoTyPQ7rQL.5KfQQtHLKLYS22Gh' @ 0 : 0; will stop at (end)
+2025/07/07-15:02:23.891797 e74ee1e0f060 Recovering log #7
+2025/07/07-15:02:23.891835 e74ee1e0f060 Recovering log #8
+2025/07/07-15:02:23.897209 e74ee1e0f060 Delete type=2 #5
+2025/07/07-15:02:23.897266 e74ee1e0f060 Delete type=0 #7
+2025/07/07-15:02:23.897278 e74ee1e0f060 Delete type=0 #8
+2025/07/07-15:02:23.897290 e74ee1e0f060 Delete type=3 #4
+2025/07/07-15:02:23.897334 e74ee1e0f060 Delete type=3 #6
+2025/07/07-16:29:47.853453 e74ee0c0f060 Level-0 table #13: started
+2025/07/07-16:29:47.853480 e74ee0c0f060 Level-0 table #13: 0 bytes OK
+2025/07/07-16:29:47.855369 e74ee0c0f060 Delete type=0 #11
+2025/07/07-16:29:47.855465 e74ee0c0f060 Manual compaction at level-0 from '!folders!Bk0io7aWCm0l6OTk' @ 72057594037927935 : 1 .. '!items.effects!yuCzzgQoTyPQ7rQL.5KfQQtHLKLYS22Gh' @ 0 : 0; will stop at (end)
