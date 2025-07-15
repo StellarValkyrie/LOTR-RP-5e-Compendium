@@ -1,12 +1,12 @@
 {
   "id": "lotr-rp-5e-unofficial-compendium",
   "title": "LOTR RP 5e Unofficial Compendium",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "manifest": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/releases/latest/download/module.json",
-  "download": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/releases/download/1.2.1/module.zip",
+  "download": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/releases/download/1.2.3/module.zip",
   "compatibility": {
-    "minimum": "13",
-    "verified": "13"
+    "minimum": "12",
+    "verified": "13.346"
   },
   "relationships": {
     "requires": [
@@ -45,7 +45,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "2-cultural-features",
@@ -56,7 +57,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "3-backgrounds",
@@ -67,7 +69,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "4-virtues-and-crafts",
@@ -78,7 +81,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "5-callings",
@@ -89,7 +93,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "6-calling-features",
@@ -100,7 +105,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "7-monsters",
@@ -111,7 +117,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "8-monster-features",
@@ -122,7 +129,8 @@
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
-      }
+      },
+      "flags": {}
     },
     {
       "name": "9-equipment",
@@ -133,7 +141,8 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
-      "system": "dnd5e"
+      "system": "dnd5e",
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -141,7 +150,9 @@
       "name": "LOTR RP 5e Content",
       "sorting": "m",
       "color": "#af8e26",
-      "packs": ["9-equipment"],
+      "packs": [
+        "9-equipment"
+      ],
       "folders": [
         {
           "name": "Heroic Cultures",
@@ -158,7 +169,7 @@
         {
           "name": "Callings",
           "sorting": "m",
-          "color": "#6082B6",
+          "color": "#6082b6",
           "packs": [
             "5-callings",
             "6-calling-features"
@@ -177,5 +188,6 @@
         }
       ]
     }
-  ]
+  ],
+  "flags": {}
 }
