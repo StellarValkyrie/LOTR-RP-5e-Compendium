@@ -1,30 +1,34 @@
 {
-  "id": "lotr-rp-5e-unofficial-compendium",
-  "title": "LOTR RP 5e Unofficial Compendium",
-  "version": "1.2.3",
-  "manifest": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/releases/latest/download/module.json",
-  "download": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium/releases/download/1.2.3/module.zip",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "13.346"
-  },
-  "relationships": {
-    "requires": [
-      {
-        "id": "lotr5e",
-        "type": "module",
-        "compatibility": {}
-      }
-    ],
-    "systems": [
-      {
-        "id": "dnd5e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
-  "description": "Unofficial LOTR RP 5e Compendium Module for Foundry VTT.\n\nPrerequisites\nDungeons &amp; Dragons Fifth Edition system for Foundry VTT.\n\nhttps://foundryvtt.com/packages/dnd5e\n\nhttps://github.com/foundryvtt/dnd5e\n\nLord of the Rings Roleplaying module for Foundry VTT\n\nhttps://foundryvtt.com/packages/lotr5e\n\nhttps://github.com/ZWinther/lotr5e-module\n\nLicense\nThis module is a fan project, and its author is in no way affiliated with or endorsed by Free League Publishing or Middle-earth Enterprises.",
+    "id": "lotr-rp-5e-unofficial-compendium",
+    "title": "LOTR RP 5e Unofficial Compendium",
+    "version": "2.0.0",
+    "compatibility": {
+        "minimum": "10",
+        "verified": "14"
+         },
+    "description": "<h1 class=\"markdown-heading\">LOTR RP 5e Unofficial Compendium</h1><p>Unofficial LOTR RP 5e Compendium Module for Foundry VTT.</p><p>Contains book and page references to Actors, Cultures, Callings, Equipment, Virtues, and other features. Descriptions are not included and must be referenced from the source materials except for D&amp;D 5e content released under the Systems Reference Document (SRD). All token art is from the Dungeons &amp; Dragons Fifth Edition system or free-to-use Foundry VTT assets.</p><h2 class=\"markdown-heading\">Prerequisites</h2><p>Dungeons &amp; Dragons Fifth Edition system for Foundry VTT.</p><p><a href=\"https://foundryvtt.com/packages/dnd5e\" rel=\"nofollow\">https://foundryvtt.com/packages/dnd5e</a></p><p><a href=\"https://github.com/foundryvtt/dnd5e\" rel=\"nofollow\" target=\"_blank\">https://github.com/foundryvtt/dnd5e</a></p><p>Lord of the Rings Roleplaying module for Foundry VTT</p><p><a href=\"https://foundryvtt.com/packages/lotr5e\" rel=\"nofollow\">https://foundryvtt.com/packages/lotr5e</a></p><p><a href=\"https://github.com/ZWinther/lotr5e-module\" rel=\"nofollow\" target=\"_blank\">https://github.com/ZWinther/lotr5e-module</a></p><h2>Support</h2><p>If you want to help support my work on The Lord of the Rings RP and other TTRPG content <a href=\"https://buymeacoffee.com/stellardreams\" rel=\"nofollow\" target=\"_blank\">buy me a coffee!</a></p><h2>License</h2><p>This module is a fan project, and its author is in no way affiliated with or endorsed by Free League Publishing or Middle-earth Enterprises.</p>",
+    "relationships": { 
+        "systems": [
+          {
+            "id": "dnd5e",
+            "type": "system",
+            "compatibility": {
+                "minimum": "5",
+                "verified": "6"
+            }
+          }
+        ],
+        "requires": [
+            {
+            "id": "lotr5e",
+            "type": "module",
+            "compatibility": {
+                "minimum": "0.8",
+                "verified": "0.8"
+                }
+            }
+        ]
+    },
   "authors": [
     {
       "name": "StellarDreams",
@@ -35,107 +39,62 @@
     }
   ],
   "url": "https://github.com/StellarValkyrie/LOTR-RP-5e-Compendium",
+  "flags": {
+    "canUpload": true
+  },
   "packs": [
     {
-      "name": "1-heroic-cultures",
-      "label": "1. Heroic Cultures",
-      "path": "packs/1-heroic-cultures",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "2-cultural-features",
-      "label": "2. Cultural Features",
-      "path": "packs/2-cultural-features",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "3-backgrounds",
-      "label": "3. Backgrounds",
-      "path": "packs/3-backgrounds",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "4-virtues-and-crafts",
-      "label": "4. Virtues and Crafts",
-      "path": "packs/4-virtues-and-crafts",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "5-callings",
-      "label": "5. Callings",
-      "path": "packs/5-callings",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "6-calling-features",
-      "label": "6. Calling Features",
-      "path": "packs/6-calling-features",
-      "type": "Item",
-      "system": "dnd5e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "flags": {}
-    },
-    {
-      "name": "7-monsters",
-      "label": "7. Monsters",
-      "path": "packs/7-monsters",
+      "name": "actors",
+      "label": "Actors",
+      "path": "packs/actors",
       "type": "Actor",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
+      "system": "dnd5e",
       "flags": {}
     },
     {
-      "name": "8-monster-features",
-      "label": "8. Monster Features",
-      "path": "packs/8-monster-features",
+      "name": "callings",
+      "label": "Callings",
+      "path": "packs/callings",
       "type": "Item",
-      "system": "dnd5e",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
+      "system": "dnd5e",
       "flags": {}
     },
     {
-      "name": "9-equipment",
-      "label": "9. Equipment",
-      "path": "packs/9-equipment",
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "heroic-cultures",
+      "label": "Heroic Cultures",
+      "path": "packs/heroic-cultures",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "virtues-and-crafts",
+      "label": "Virtues and Crafts",
+      "path": "packs/virtues-and-crafts",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -145,49 +104,18 @@
       "flags": {}
     }
   ],
-  "packFolders": [
+    "packFolders": [
     {
-      "name": "LOTR RP 5e Content",
+      "name": "The Lord of the Rings RP",
       "sorting": "m",
-      "color": "#af8e26",
+      "color": "#c5a059",
       "packs": [
-        "9-equipment"
-      ],
-      "folders": [
-        {
-          "name": "Heroic Cultures",
-          "sorting": "m",
-          "color": "#00471d",
-          "packs": [
-            "1-heroic-cultures",
-            "2-cultural-features",
-            "3-backgrounds",
-            "4-virtues-and-crafts"
-          ],
-          "folders": []
-        },
-        {
-          "name": "Callings",
-          "sorting": "m",
-          "color": "#6082b6",
-          "packs": [
-            "5-callings",
-            "6-calling-features"
-          ],
-          "folders": []
-        },
-        {
-          "name": "Monsters",
-          "sorting": "m",
-          "color": "#7d160c",
-          "packs": [
-            "7-monsters",
-            "8-monster-features"
-          ],
-          "folders": []
-        }
+        "actors",
+    	"callings",
+    	"equipment",
+    	"heroic-cultures",
+    	"virtues-and-crafts"
       ]
     }
-  ],
-  "flags": {}
+  ]
 }
